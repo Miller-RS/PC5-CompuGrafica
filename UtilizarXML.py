@@ -4,7 +4,7 @@ import cv2
 cam = cv2.VideoCapture(0)
 
 # Cargar el clasificador de cascada preentrenado para la detección de Pokémon
-clasificador = cv2.CascadeClassifier('cascades/cascade_pokemon.xml')
+clasificador = cv2.CascadeClassifier('cascade_pokemon.xml')
 
 while True:
     # Leer el siguiente fotograma del video
